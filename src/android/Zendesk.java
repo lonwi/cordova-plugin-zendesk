@@ -12,11 +12,13 @@ import java.util.List;
 
 import zendesk.core.AnonymousIdentity;
 import zendesk.core.Identity;
+import zendesk.support.CustomField;
 import zendesk.support.Support;
 import zendesk.support.guide.HelpCenterActivity;
 import zendesk.support.guide.ViewArticleActivity;
 import zendesk.support.request.RequestActivity;
 import zendesk.support.request.RequestUiConfig;
+import zendesk.support.requestlist.RequestListActivity;
 import zendesk.support.requestlist.RequestListActivity;
 
 public class Zendesk extends CordovaPlugin {
